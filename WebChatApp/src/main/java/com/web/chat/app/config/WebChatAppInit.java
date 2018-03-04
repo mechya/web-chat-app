@@ -6,7 +6,7 @@ public class WebChatAppInit extends AbstractAnnotationConfigDispatcherServletIni
 
 	 @Override
 	   protected Class<?>[] getRootConfigClasses() {
-	      return new Class[] {};
+	      return new Class[] {WebChatAppSecurityConfig.class};
 	   }
 
 	   @Override

@@ -14,12 +14,12 @@ import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
 public class WebChatAppSocketConfig extends AbstractWebSocketMessageBrokerConfigurer {
 	  @Override
 	    public void configureMessageBroker(MessageBrokerRegistry config) {
-	        config.enableSimpleBroker("/topic");
-	        config.setApplicationDestinationPrefixes("/app");
+	        config.enableSimpleBroker("/topic");//I think sending point
+	        config.setApplicationDestinationPrefixes("/app");//I think its like Mapping Point to get messages form Borusers 
 	    }
 	 
 	    @Override
 	    public void registerStompEndpoints(StompEndpointRegistry registry) {
-	         registry.addEndpoint("/chat").withSockJS();
+	         registry.addEndpoint("/chat").withSockJS();//Connecting Point
 	    }
 }
