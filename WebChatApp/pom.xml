@@ -25,7 +25,7 @@
 		<mybatis.version>3.4.2</mybatis.version>
 		<mysql.connector.java.version>8.0.16</mysql.connector.java.version>
 		<jackson.core.version>2.7.3</jackson.core.version>
-		<jackson.databind.version>2.9.9.2</jackson.databind.version>
+		<jackson.databind.version>2.10.0.pr1</jackson.databind.version>
 		<log4j.version>1.2.17</log4j.version>
 		<javax.mail.version>1.6.0</javax.mail.version>
 		
